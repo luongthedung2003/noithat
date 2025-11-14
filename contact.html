@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sweatshirt - Lapak Baju</title>
+    <title>Nội thất - Kelvin Hào</title>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
       rel="stylesheet"
@@ -142,87 +142,38 @@
         color: #667eea;
       }
 
-      /* Breadcrumb */
-      .breadcrumb-section {
-        background: white;
-        margin-top: 50px;
-        padding: 15px 0;
-        border-bottom: 1px solid #e0e0e0;
-      }
+      /* Mobile */
+@media (max-width: 576px) {
 
-      .breadcrumb {
-        margin: 0;
-        background: transparent;
-      }
+  /* Giảm chiều cao nav */
+  nav.navbar, 
+  .navbar {
+    padding: 6px !important;
+    padding-bottom: 6px !important;
+    min-height: 50px !important;
+  }
 
-      .breadcrumb-item a {
-        color: #999;
-        text-decoration: none;
-      }
+  /* Thu nhỏ logo */
+  .navbar-brand img {
+    height: 28px !important;
+    width: auto !important;
+  }
 
-      .breadcrumb-item.active {
-        color: #333;
-        font-weight: 600;
-      }
+  /* Giảm font-size item trong nav */
+  .nav-link {
+    font-size: 14px !important;
+    padding: 6px 10px !important;
+  }
 
-      /* CONTACT SECTION */
-.contact-section {
-  padding: 50px 0;
-  background: #f7fafc;
+  /* Nếu bạn có button toggle → thu nhỏ lại */
+  .navbar-toggler {
+    padding: 2px 6px !important;
+    transform: scale(0.85);
+  }
 }
 
-.contact-container {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  gap: 40px;
-}
 
-.contact-left {
-  flex: 1;
-}
 
-.contact-form {
-  flex: 1;
-  background: white;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.06);
-}
-
-.form-row {
-  display: flex;
-  gap: 15px;
-  margin-bottom: 20px;
-}
-
-.form-row input,
-.form-row select {
-  flex: 1;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #e5e7eb;
-  background: #f9fbfc;
-}
-
-textarea {
-  width: 100%;
-  resize: none;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #e5e7eb;
-  margin-bottom: 20px;
-}
-
-.btn-submit {
-  background: #1dd1a1;
-  color: white;
-  border: none;
-  padding: 12px 25px;
-  border-radius: 8px;
-  font-weight: 600;
-}
       footer {
         background-color: #e9e9e9;
         color: #000;
@@ -312,7 +263,7 @@ textarea {
     <header class="main-header">
       <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-          <img src="/image/image.png" alt="" style="width: 120px" />
+          <img src="image/image.png" alt="" style="width: 120px" />
           <button
             class="navbar-toggler"
             type="button"
@@ -327,7 +278,7 @@ textarea {
                 <a class="nav-link" href="index.html">Trang chủ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="products.html">Sản phẩm</a>
+                <a class="nav-link" href="">Sản phẩm</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">Dịch vụ</a>
@@ -336,7 +287,7 @@ textarea {
                 <a class="nav-link" href="#destinations">Tin tức</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Liên hệ</a>
+                <a class="nav-link" href="contact.html">Liên hệ</a>
               </li>
             </ul>
             <div class="navbar-icons d-none d-lg-flex">
@@ -348,61 +299,73 @@ textarea {
       </nav>
     </header>
 
-    <section class="contact-section">
-      <div class="contact-container">
-        <!-- Left Info -->
-        <div class="contact-left">
-          <span class="contact-label">CONTACT</span>
-          <h2 class="contact-title">Get in touch</h2>
-          <p class="contact-desc">
-            "Bạn đang tìm giải pháp nội thất phù hợp cho không gian sống? Hãy
-            liên hệ ngay với chúng tôi để được tư vấn miễn phí và nhận những gợi
-            ý thiết kế tinh tế nhất."
-          </p>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-          <div class="contact-info">
-            <p>"Chỉ một cuộc gọi, bạn sẽ có ngay những ý tưởng thiết kế độc đáo cho ngôi nhà của mình. Liên hệ với chúng tôi để bắt đầu thay đổi không gian sống."</p>
-            <a href="mailto:info@neonerv.com">luongthehao@gmail.com</a>
-            <a href="tel:+493020608621">+49 (0) 30 / 20 60 86 21</a>
+<section class="py-5" style="background:#dcdce2;">
+  <div class="container">
+    <h2 class="text-center mb-4 fw-bold">Chúng tôi<br>luôn lắng nghe ý kiến của bạn!!!</h2>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-10 p-4 rounded-4" style="background:#fff;">
+        <div class="row">
+
+          <!-- Left info -->
+          <div class="col-md-5 mb-4">
+            <p class="fw-bold mb-1">Email:</p>
+            <p>luongthehao@gmail.com</p>
+
+            <p class="fw-bold mb-1">Điện thoại:</p>
+            <p>012345678</p>
+
+            <p class="fw-bold mb-1">Địa chỉ:</p>
+            <p>
+              Xóm 6,Hương Phố ,Hà Tĩnh
+            </p>
+
+            <div class="d-flex gap-3 mt-4">
+              <a href="#" class="text-dark fs-4"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-dark fs-4"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="text-dark fs-4"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="text-dark fs-4"><i class="bi bi-instagram"></i></a>
+            </div>
           </div>
+
+          <!-- Right form -->
+          <div class="col-md-7">
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label small">Tên của bạn</label>
+                  <input type="text" class="form-control rounded-pill" placeholder="Your name">
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label small">Địa chỉ Email</label>
+                  <input type="email" class="form-control rounded-pill" placeholder="Your email address">
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label small">Tin nhắn liên hệ</label>
+                  <textarea class="form-control" rows="6" placeholder="Write something..." style="border-radius:20px;"></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button class="btn w-100 text-white rounded-pill py-2" 
+                    style="background:#3a5fff;">Gửi tin nhắn</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
         </div>
-
-        <!-- Right Form -->
-        <form class="contact-form">
-          <div class="form-row">
-            <input type="text" placeholder="First name" />
-            <input type="text" placeholder="Last name" />
-          </div>
-
-          <div class="form-row">
-            <input type="email" placeholder="Email address" />
-            <input type="text" placeholder="Company name" />
-          </div>
-
-          <div class="form-row">
-            <input type="text" placeholder="Position" />
-          </div>
-
-          <textarea placeholder="Message"></textarea>
-
-          <div class="form-row submit-row">
-            <select>
-              <option selected>What are you interested in?</option>
-              <option>Interior design</option>
-              <option>Furniture</option>
-              <option>Consulting</option>
-            </select>
-            <button type="submit" class="btn-submit">Submit</button>
-          </div>
-
-          <p class="small-text">
-            By clicking Submit you agree that we can process your personal data
-            as required for your request. Please read our
-            <a href="#">data protection statement.</a>
-          </p>
-        </form>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.js"></script>
+
+
 
     <footer>
       <div class="container">
@@ -410,7 +373,7 @@ textarea {
           <!-- Logo & Subscribe -->
           <div class="col-lg-3 col-md-6">
             <img
-              src="/image/logo.png"
+              src="image/logo.png"
               alt=""
               style="width: 120px; object-fit: cover"
             />
@@ -481,6 +444,57 @@ textarea {
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-    <script></script>
+    <script>
+      // Wishlist functionality
+      document.querySelectorAll(".wishlist-btn").forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const icon = btn.querySelector("i");
+          if (icon.classList.contains("far")) {
+            icon.classList.remove("far");
+            icon.classList.add("fas");
+            btn.style.color = "#ff4757";
+          } else {
+            icon.classList.remove("fas");
+            icon.classList.add("far");
+            btn.style.color = "";
+          }
+        });
+      });
+
+      // Add to cart animation
+      document.querySelectorAll(".cart-btn").forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          btn.innerHTML = '<i class="fas fa-check"></i>';
+          setTimeout(() => {
+            btn.innerHTML = '<i class="fas fa-shopping-cart"></i>';
+          }, 1500);
+        });
+      });
+
+      // Filter tags removal
+      document.querySelectorAll(".filter-tag i").forEach((icon) => {
+        icon.addEventListener("click", (e) => {
+          e.target.parentElement.remove();
+        });
+      });
+
+      // Product card click
+      document.querySelectorAll(".product-card").forEach((card) => {
+        card.addEventListener("click", () => {
+          alert("Opening product detail page...");
+        });
+      });
+
+      // Pagination
+      // document.querySelectorAll('.page-btn').forEach(btn => {
+      //     btn.addEventListener('click', () => {
+      //         document.querySelectorAll('.page-btn').forEach(b => b.classList.remove('active'));
+      //         if (!isNaN(btn.textContent)) {
+      //             btn.classList.add('active');
+      //         }
+      //         window.scrollTo({ top
+    </script>
   </body>
 </html>
